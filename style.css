@@ -1,0 +1,251 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  /*Optional*/
+  /* font-family: ;  */
+}
+
+.background-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+hr {
+  width: 320px;
+}
+
+.mid-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  transform: translateY(160px);
+  font-size: 50px;
+  color: white;
+}
+
+/* footer  */
+
+.footer-background-image {
+  background: url(./images/background-image.jpg);
+}
+
+footer {
+  /* position: fixed;
+  width: 80%;
+  right: 10%;
+  left: 10%;
+  top: 0; */
+  /* transform: translateY(58rem);  */ /* use this position Y-fixed */
+  /* transform: translateY(15rem); */
+  max-width: 90rem;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 10px 50px;
+  border-radius: 18px;
+  background-color: grey;
+  height: 100vh;
+  transform: translateY(25px);
+}
+
+.wrapper {
+  position: relative;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-40px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.main-container h1 {
+  font-size: 38px;
+}
+
+.container-wrapper {
+  display: flex;
+  gap: 4rem;
+}
+
+/* what is dissection */
+
+.about-dissection {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-dissection h1 {
+  text-align: center;
+}
+
+.details-about-dissection {
+  border: 2px solid #99c68e;
+  width: 620px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.details-about-dissection:hover {
+  background-color: aqua;
+}
+.details-about-dissection p {
+  font-size: 1.5em;
+  text-indent: 60px;
+  text-align: justify;
+}
+
+/* purpose */
+
+.purpose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.purpose h1 {
+  text-align: center;
+}
+
+.details-purpose {
+  border: 2px solid #99c68e;
+  width: 620px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.details-purpose p {
+  font-size: 1.5em;
+  text-indent: 60px;
+  text-align: justify;
+}
+
+/* importance */
+
+.importance h1 {
+  text-align: center;
+}
+
+.details-importance {
+  border: 2px solid #99c68e;
+  width: 620px;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.details-importance p {
+  font-size: 1.5em;
+  text-indent: 60px;
+  text-align: justify;
+}
+
+/* objectives */
+
+.objectives h1 {
+  text-align: center;
+}
+
+.details-objectives {
+  border: 2px solid #99c68e;
+  width: 620px;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.details-objectives p {
+  font-size: 1.5em;
+  text-indent: 60px;
+  text-align: justify;
+}
+
+/* Objectives of dissection */
+
+.container-of-objectives {
+  height: 100vh;
+}
+/* Materials CSS */
+
+.title-frog {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  font-size: 1.2rem;
+  padding-top: 15px;
+}
+
+.main-container-for-materials {
+  display: flex;
+  justify-content: space-evenly;
+  transform: translateY(100px);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/background-image.jpg);
+  height: 100vh;
+}
+
+.background-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/background-image.jpg);
+  height: 100vh;
+}
+
+.container-of-materials {
+  background-color: #99c68e;
+  width: 25rem;
+  padding: 10px 35px;
+  height: 50vh;
+  outline-style: dashed;
+}
+
+.container-of-safety {
+  background-color: #99c68e;
+  width: 25rem;
+  padding: 10px;
+  height: 50vh;
+  outline-style: dashed;
+}
+
+.importance-of-dissecting {
+  background-color: #6a8d4f;
+  width: 25rem;
+  padding: 10px;
+  height: 50vh;
+  overflow-y: auto;
+  outline-style: dashed;
+  outline-color: #99c68e;
+}
+
+/* #6a8d4f */
+/* #acc093 */
